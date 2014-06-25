@@ -57,6 +57,7 @@ body.has-fixednav .main-container{
 	margin-left:-15px;
 	margin-right: 1px;
 }
+
 .topnav ul.nav{
 	display: inline-block;
 }
@@ -87,7 +88,20 @@ body.has-fixednav .main-container{
 	border-left: 1px solid transparent;
 	border-right: 1px solid transparent;
 }
-
+.topnav .applinks {
+	float: left;
+}
+.glyph-center{
+	position: center;
+}
+.search{
+	position: relative;
+}
+.topnav .search-field{
+	padding-top: 8px;
+	padding-right: 7px;
+	position: relative;
+}
 
 .pagecontainer .pagecontent{
 	height: 100%;
